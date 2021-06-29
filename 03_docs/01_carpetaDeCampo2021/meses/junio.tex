@@ -1,6 +1,6 @@
 \section{Junio 2021}
 
-\subsection*{Martes 01/02/21}
+\subsection*{Martes 01/06/21}
     \begin{itemize}
         \item MQTT ESP32 y Raspberry Pi 3B+ en script "Python"
             \begin{itemize}
@@ -8,14 +8,15 @@
             \end{itemize}
 \end{itemize}
 
-\subsection*{Miércoles 02/02/21}
+\subsection*{Miércoles 02/06/21}
 \begin{itemize}
     \item Prueba de servidor publico, web server nginx, DDNS publico de \href{https://www.noip.com/}{\textbf{No-IP}}, se abrieron los puertos del router 80 y se asigno una ip fija (192.168.1.100) a la RPi. 
     \begin{itemize}
         \item \href{http://facunava.ddns.net}{Pagina de prueba}
     \end{itemize}
+    \item Se buscan materiales necesarios para calibración de sensores.
 \end{itemize}    
-\subsection*{Jueves 03/02/21}
+\subsection*{Jueves 03/06/21}
     \begin{itemize}
         \item Prueba de framework Flask, en conjunto con el Web Server Nginx, y como herramienta de deployment Gunicorn, ya que por si solo flask sirve para ejecutar de forma local y no está orientado a usuarios multilples.
         \begin{itemize}
@@ -30,19 +31,172 @@
             \item \href{https://www.rosietheredrobot.com/2017/09/a-web-of-pies.html}{Instalación de Flask}
         \end{itemize}
     \end{itemize}
-\subsection*{Viernes 04/02/21}
+\subsection*{Viernes 04/06/21}
     \begin{itemize}
         \item Dia Libre.
     \end{itemize}
 
-\subsection*{Sábado 05/02/21}
+\subsection*{Sábado 05/06/21}
     \begin{itemize}
         \item Dia Libre.
     \end{itemize}
 
-\subsection*{Domingo 06/02/21}
+\subsection*{Domingo 06/06/21}
+    \begin{itemize}
+        \item Dia Libre.
+    \end{itemize}
+\subsection*{Lunes 07/06/21}
+    \begin{itemize}
+        \item Pruebas de servidores libres usando SQLite HTML HTTP 
+        \item Se comienza el proceso de pruebas para la calibración de sensores.
+        \begin{itemize}
+            \item Se definen los volúmenes a ensayar.
+            \item Se desarrolla un código de prueba.
+            \item Se comprueba el funcionamiento de los sensores.
+        \end{itemize}
+    \end{itemize}
+\subsection*{Martes 08/06/21}
+    \begin{itemize}
+        \item Envió de sensor de humedad/temperatura sht3x por parte de proveedor
+        \item Pruebas de servidores, alternativas y variantes
+    \end{itemize}
 
+\subsection*{Miércoles 09/06/21}
+    \begin{itemize}
+        \item Cambio de enfoque prueba enviando datos (sensor de distancia HC-SR04) por MQTT desde ESP32 a raspberry y desde raspberry a servidor Thinkspeak.com (exitoso)
+        \item Se consigue una balanza para realizar pruebas basadas en el método directo gravimétrico para mediciones de humedad de suelo.
+    \end{itemize}
+    
+\subsection*{Jueves 10/06/21}
+    \begin{itemize}
+        \item Actualización de códigos en plataformas y organización de documentos.
+    \end{itemize}
+\subsection*{Viernes 11/06/21}
+    \begin{itemize}
+        \item Reunión nuevos avances y propuesta de primer visado para la fecha 2/7/21 
+    \end{itemize}
 
+\subsection*{Sábado 12/06/21}
+    \begin{itemize}
+        \item Día libre
+    \end{itemize}
+
+\subsection*{Domingo 13/06/21}
+    \begin{itemize}
+        \item Día libre 
+    \end{itemize}
+    
+\subsection*{Lunes 14/06/21}
+    \begin{itemize}
+        \item Llega el producto "teclado matricial 4x4 de Membrana", Know how, Optimización de GPIO y adquisición de datos. 
+        \item Se realizan mediciones de valores extremos del sensor para trazar la curva de respuesta.
+        \begin{itemize}
+            \item Se emplea balanza para pesar tierra para lecturas cercanas a 100\% de humedad.
+            \item Se la seca en horno por 4 horas.
+            \item Se deja enfriar por 2 horas.
+            \item Se mide humedad para corroborar valores cercanos a 0\%.
+            \item Se pesa nuevamente para ver el peso de agua evaporado.
+        \end{itemize}
+        
+    \end{itemize}
+    
+\subsection*{Martes 15/06/21}
+    \begin{itemize}
+        \item Diseño 3D de soporte para teclado en gabinete.
+    \end{itemize}
+    
+\subsection*{Miércoles 16/06/21}
+    \begin{itemize}
+        \item Se realizan nuevas mediciones para la calibración de sensores con el fin de eliminar errores en el proceso.
+    \end{itemize}
+    
+\subsection*{Jueves 17/06/21}
+    \begin{itemize}
+        \item Se continua el proceso de calibración, incorporando el riego para observar valores intermedios en la escala de medición.
+    \end{itemize}
+    
+\subsection*{Viernes 18/06/21}
+    \begin{itemize}
+        \item Llega pantalla de 7 pulgadas para display de gabinete.
+    \end{itemize}
+    
+\subsection*{Sábado 19/06/21}
+    \begin{itemize}
+        \item Reunión para evaluar avances y verificar pendientes para primer visado. 
+        \item Se comprueba correcto funcionamiento de la pantalla.
+    \end{itemize}
+    
+\subsection*{Domingo 20/06/21}
+    \begin{itemize}
+        \item Día libre 
+    \end{itemize}
+
+\subsection*{Lunes 21/06/21}
+    \begin{itemize}
+        \item Primera aproximación de posible firmware final, con entorno de desarrollo InfluxDB, Telegraf y Grafena. 
+        \begin{itemize}
+            \item \href{http://pdacontroles.com/instalacion-completa-dashboard-grafana-en-raspberry-pi-3-b-b/}{Tutorial Grafana RPi 3B+.}
+        \end{itemize}
+    \end{itemize}
+    
+\subsection*{Martes 22/06/21}
+    \begin{itemize}
+        \item Prueba de botón en Grafana, para comunicación HTTP POST.
+        \begin{itemize}
+            \item \href{https://grafana.com/grafana/plugins/cloudspout-button-panel/}{Botón Grafana - Plugin Oficial.}
+        \end{itemize}
+    \end{itemize}
+    
+\subsection*{Miércoles 23/06/21}
+    \begin{itemize}
+        \item Montaje de servidor nodejs para recibir los comandos POST.
+        \begin{itemize}
+            \item \href{https://www.npmjs.com/package/server}{Servidor nodejs.}
+        \end{itemize}
+        \item Problema de comunicación por seguridad CORS (Intercambio de Recursos de Origen Cruzado).
+        \begin{itemize}
+            \item \href{https://developer.mozilla.org/es/docs/Web/HTTP/CORS}{CORS Mozila.}
+        \end{itemize}
+    \end{itemize}
+    
+\subsection*{Jueves 24/06/21}
+    \begin{itemize}
+        \item Analisis y estudio de migrar el sistema a Home Assistant.
+        \begin{itemize}
+            \item \href{https://www.home-assistant.io/installation/raspberrypi}{Instalación Home Assistant Raspberry Pi.}
+        \end{itemize}
+    \end{itemize}
+ 
+\subsection*{Viernes 25/06/21}
+    \begin{itemize}
+        \item Instalación de Home Assistant Core. Se probó la instalación en Docker pero el arranca demoraba, 5 minutos aproximadamente. 
+        \begin{itemize}
+            \item \href{https://www.home-assistant.io/installation/raspberrypi}{Instalación Home Assistant Raspberry Pi.}
+        \end{itemize}
+        \item Instalación de herramientas gráficas y chrome para inicializar Home Assistant desde el browser.
+        \begin{itemize}
+            \item \href{https://sylvaindurand.org/launch-chromium-in-kiosk-mode/}{Modo kiosko en Chrome.}
+            \item \href{https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/}{RPi Web Browser en modo Kiosko.}
+        \end{itemize}
+    \end{itemize}    
+
+\subsection*{Sabado 26/06/21}
+    \begin{itemize}
+        \item Reunión para integrar teclado con el resto del sistema. Programación de teclado para que capte eventos y se comporte como un teclado real.
+        \begin{itemize}
+            \item \href{https://github.com/nutki/rpi-gpio-matrix-keyboard}{Raspberry Pi GPIO Matrix Keyboard.}
+            \item \href{https://softsolder.com/2016/03/02/raspberry-pi-usb-keypad-via-evdev/}{Raspberry Pi: USB Keypad Via evdev.}
+        \end{itemize}
+    \end{itemize}
+
+\subsection*{Domingo 27/06/21}
+    \begin{itemize}
+        \item Día libre 
+    \end{itemize}
+
+\subsection*{Lunes 28/06/21}
+\subsection*{Martes 29/06/21}
+\subsection*{Miércoles 30/06/21}
 
 
 \clearpage
