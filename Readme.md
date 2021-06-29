@@ -32,19 +32,15 @@ Esto va a estar controlado a través de un servidor hosteado de forma local en u
 ---
 
 ### TODO
-* Sensor
-	+ Probar SHT30
+* Hardware
+	+ Iniciar PCB
 
-* Servidor
-	+ WebServer (nginx)
-	+ Frontend (react o angular)
-	+ Backend (Golang o django)
-	+ DB (mongoDB o rethinkDB)
-
+* Software
+	+ Configurar Home Assistant
+	+ Mejorar firmware ESP32
 
 ---
 
-> Serás lo que debas ser o no serás nada.
-> - José de San Martín
-
+> Al fin y al cabo, somos lo que hacemos para cambiar lo que somos.
+> - Eduadro Galeano.
 
