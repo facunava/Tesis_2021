@@ -1,0 +1,6 @@
+[submodule "01_hardware/SmartSaffron_hw"]
+	path = 01_hardware/SmartSaffron_hw
+	url = git@github.com:facunava/hw_tesis21.git
+[submodule "02_software/SmartSaffron_fw"]
+	path = 02_software/SmartSaffron_fw
+	url = git@github.com:facunava/fw_tesis21.git
